@@ -1,12 +1,21 @@
-$random = get-random -minimum 1 -maximum 31
-$attempts = 1
+import random
+number = random.randint(1, 30)
 
-    while($guesses -ne $random){
+guesses = 0
+print("Can you guess the random number between 1 and 30?")
 
-$guesses = read-host -prompt "Please guess a number between 1 and 30."
-      
-      if($guesses -gt $random) {write-host "Too high! Guess lower."}
-      if($guesses -lt $random) {write-host "Too low! Guess higher."}
-      if($guesses -eq $random) {write-host "Correct!! Great guess, WOW!!"}
-      
-    }
+while guesses < 5:
+    guess = int(input())
+    guesses += 1
+    if guess > number: 
+        print("Too high! Guess lower.")
+    if guess < number:
+        print("Too low! Guess higher.")
+    if guess == number:
+        break
+        
+        
+if guess == number: 
+    print("CORRECT! You guessed the number in " + str(guesses) + " attempts! ")
+else:
+    print("Not very good guesses. The number was " + str(number)) 
