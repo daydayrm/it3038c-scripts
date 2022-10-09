@@ -1,1 +1,0 @@
-For my first project, I'd like to write a script to encrypt a file. 
