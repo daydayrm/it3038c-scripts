@@ -16,3 +16,6 @@ print ((favMovie) + " is a good one!! My favorite is The Elf! Now.. the countdow
 
 print (colors.RED + "CHRISTMAS" + colors.RESET + colors.GREEN + " COUNTDOWN" + colors.RESET + colors.RED + " 2" + colors.RESET + colors.GREEN + "0" + colors.RESET + colors.RED + "2" + colors.RESET + colors.GREEN + "2" + colors.RESET + colors.RED + "!" + colors.RESET)
 print ("There are " + colors.GREEN + str(daysUntil.days) + colors.RESET + " days until" + colors.RED + " Santa" + colors.RESET + " comes!")
+
+
+## https://pythonicpi.wordpress.com/2017/12/04/christmas-countdown-with-python/
