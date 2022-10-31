@@ -1,3 +1,6 @@
-For project 2, I will be doing a script that plays Rock, Papers, Scissors with the user. The script will automatically select one of the options
-and the script will determine a winner based on the parameters.
+For Project 2, I will be writing a script that will import the calendar from any year and any month. 
+
+I will be using "calendar" as a module in this project. 
+
+It will need user input to know what year and month to import the calendar for, so the script will ask for user input.
 
