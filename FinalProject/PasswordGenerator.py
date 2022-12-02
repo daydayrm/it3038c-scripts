@@ -12,7 +12,7 @@ pswdIncludes = numbers + letters + characters
 # I usually have very long passwords due to being a Cybersecurity Major. The recommended password is between 16-20 characters long and I usually stick around this amount.
 # For this project, I offered it as an input instead of just being used by me. Some sites have constraints on password length so this option is nice.
 pswdLength = int(input("Please enter the length of the password: "))
-max =
+
 
 # Now, the script generates the password that will meet the conditions set while including the password length input from the user
 password = ""
