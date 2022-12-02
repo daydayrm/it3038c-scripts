@@ -16,6 +16,10 @@ user about strong password lengths and the common practice.
 The user is responsible for copying that password or they can simply run the script again to get another password. The script has no way of storing the information or
 password for the user. This ensures the password integrity. 
 
+
+To RUN:
+Simply make sure the correct modules are installed and run the script. The script will inform you what to do from there.
+
 For this project I used 2 sources for help and inspiration: 
 https://stackoverflow.com/questions/3854692/generate-password-in-python
 https://codefather.tech/blog/password-generator-python/
