@@ -10,5 +10,8 @@ The password generator I created uses the modules string and secret. It will ask
 special characters, lowercase, or uppercase letters. The script automatically includes that in the selection for the best password safety. 
 The user will then input the password length and the script will produce the password and print and diplay it for the user.
 
+If the user inputs the length as less than 8, the script will still generate the password (on purpose) and print it to the user. It will also display a message to the
+user about strong password lengths and the common practice.
+
 The user is responsible for copying that password or they can simply run the script again to get another password. The script has no way of storing the information or
 password for the user. This ensures the password integrity. 
