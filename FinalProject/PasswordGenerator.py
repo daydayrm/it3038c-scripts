@@ -13,6 +13,10 @@ pswdIncludes = numbers + letters + characters
 # For this project, I offered it as an input instead of just being used by me. Some sites have constraints on password length so this option is nice.
 pswdLength = int(input("Please enter the length of the password: "))
 
+# 8 is the general number of characters for a password, if less than 8, the script will print a message. 
+if pswdLength < 8:
+    print("Please select more characters for a stronger password! Here is the password you asked for.")
+
 
 # Now, the script generates the password that will meet the conditions set while including the password length input from the user
 password = ""
